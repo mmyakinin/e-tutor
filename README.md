@@ -46,14 +46,12 @@ npm run dev
 npm run build
 ```
 
+---
+
 ## 📚 Project Purpose
 
-- This project was created to:
-
-- Practice building layouts with **Tailwind CSS**
-
-- Learn and apply animations using **Motion**
-
-- Improve component-based architecture in **React**
-
-- Experiment with UI design for an online education platform
+-   This project was created to:
+-   Practice building layouts with **Tailwind CSS**
+-   Learn and apply animations using **Motion**
+-   Improve component-based architecture in **React**
+-   Experiment with UI design for an online education platform
