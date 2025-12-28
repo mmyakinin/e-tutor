@@ -11,7 +11,8 @@ const Hero = () => {
                 <div className="text-center md:text-left space-y-6">
                     <motion.p
                         initial={{ opacity: 0, x: -100 }}
-                        animate={{ opacity: 1, x: 0 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        viewport={{ once: true }}
                         transition={{ duration: 0.5, delay: 0.4 }}
                         className="font-semibold text-orange-600 uppercase"
                     >
@@ -19,7 +20,8 @@ const Hero = () => {
                     </motion.p>
                     <motion.h1
                         initial={{ opacity: 0, x: -100 }}
-                        animate={{ opacity: 1, x: 0 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        viewport={{ once: true }}
                         transition={{ duration: 0.5, delay: 0.6 }}
                         className="text-5xl lg:text-6xl font-semibold !leading-tight"
                     >
@@ -28,7 +30,8 @@ const Hero = () => {
                     </motion.h1>
                     <motion.p
                         initial={{ opacity: 0, x: -100 }}
-                        animate={{ opacity: 1, x: 0 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        viewport={{ once: true }}
                         transition={{ duration: 0.5, delay: 0.8 }}
                         className="text-gray-600 xl:max-w-[500px]"
                     >
@@ -38,7 +41,8 @@ const Hero = () => {
                     <motion.div
                         layout="position"
                         initial={{ opacity: 0, x: -100 }}
-                        animate={{ opacity: 1, x: 0 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        viewport={{ once: true }}
                         transition={{ duration: 0.5, delay: 1 }}
                         className="flex flex-col sm:flex-row justify-center items-center gap-8 md:justify-start !mt-8"
                     >
@@ -57,7 +61,8 @@ const Hero = () => {
             <div className="flex justify-center items-center">
                 <motion.img
                     initial={{ opacity: 0, x: 200 }}
-                    animate={{ opacity: 1, x: 0 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    viewport={{ once: true }}
                     transition={{
                         type: "spring",
                         stiffness: 100,
