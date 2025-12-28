@@ -56,7 +56,7 @@ const WhyChooseUs = () => {
                             initial={{ opacity: 0, x: 100 }}
                             whileInView={{ opacity: 1, x: 0 }}
                             viewport={{ once: true }}
-                            transition={{ duration: 0.8, delay: item.delay }}
+                            transition={{ duration: 0.6, delay: item.delay }}
                             key={item.id}
                             className="space-y-4 p-6 rounded-xl shadow-[0_0_22px_0_rgba(0,0,0,0.15)]"
                         >

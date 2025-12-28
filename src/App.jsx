@@ -7,6 +7,7 @@ import WhyChooseUs from "./components/WhyChooseUs";
 import bannerImg1 from "./assets/banner1.png";
 import bannerImg2 from "./assets/banner2.png";
 import Banner from "./components/Banner";
+import SubjectsCard from "./components/SubjectsCard";
 
 const BannerData = [
     {
@@ -33,6 +34,7 @@ const App = () => {
             <WhyChooseUs />
             <Banner {...BannerData[0]} />
             <Banner {...BannerData[1]} reverse={true} />
+            <SubjectsCard />
         </main>
     );
 };
