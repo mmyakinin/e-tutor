@@ -63,7 +63,7 @@ const Testimonial = () => {
         <div className="py-8 md:py-16 mb-8">
             <div className="container">
                 {/* Header Section */}
-                <div className="space-y-4 text-center max-w-[600px] mx-auto mb-5">
+                <div className="space-y-4 text-center max-w-[600px] mx-auto mb-8">
                     <h1 className="uppercase font-semibold text-orange-600">
                         Our Testimonials
                     </h1>

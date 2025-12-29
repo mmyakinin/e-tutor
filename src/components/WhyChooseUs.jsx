@@ -41,7 +41,7 @@ const WhyChooseUs = () => {
         <section className="why-choose-us bg-[#f9fafc] py-8 md:py-16">
             <div className="container">
                 {/* Header Section */}
-                <div className="space-y-4 text-center max-w-[500px] mx-auto mb-5">
+                <div className="space-y-4 text-center max-w-[500px] mx-auto mb-8">
                     <h1 className="uppercase font-semibold text-orange-600">
                         Why Choose us
                     </h1>

@@ -65,7 +65,7 @@ const SubjectsCard = () => {
         <section className="subjects py-8 md:py-16">
             <div className="container">
                 {/* Header Section */}
-                <div className="space-y-4 p-6 text-center max-w-[600px] mx-auto mb-5">
+                <div className="space-y-4 text-center max-w-[600px] mx-auto mb-8">
                     <h1 className="uppercase font-semibold text-orange-600">
                         Our tutor subjects
                     </h1>
