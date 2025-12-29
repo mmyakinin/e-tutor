@@ -1,10 +1,10 @@
 import { motion } from "motion/react";
 
-const Banner = ({ image, title, desc, tag, reverse }) => {
+const Banner = ({ imgUrl, title, desc, tag, reverse }) => {
     return (
-        <div className="bg-[#f9f9f9]">
+        <section className="bg-[#f9f9f9] py-8 md:py-16">
             <div className="container">
-                <div className=" grid grid-cols-1 md:grid-cols-2 space-y-6 md:space-y-0 py-14">
+                <div className="grid grid-cols-1 md:grid-cols-2 space-y-6 md:space-y-0">
                     {/* Banner Image Section */}
                     <div
                         className={`flex justify-center md:justify-start items-center undefined ${
@@ -20,7 +20,7 @@ const Banner = ({ image, title, desc, tag, reverse }) => {
                                 delay: 0.2,
                             }}
                             viewport={{ once: true }}
-                            src={image}
+                            src={imgUrl}
                             alt={title}
                             className="w-[400px] h-full object-cover"
                         />
@@ -68,7 +68,7 @@ const Banner = ({ image, title, desc, tag, reverse }) => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 

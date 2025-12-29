@@ -62,14 +62,14 @@ const subjectsList = [
 
 const SubjectsCard = () => {
     return (
-        <>
-            <div className="container py-16">
+        <section className="subjects py-8 md:py-16">
+            <div className="container">
                 {/* Header Section */}
                 <div className="space-y-4 p-6 text-center max-w-[600px] mx-auto mb-5">
                     <h1 className="uppercase font-semibold text-orange-600">
                         Our tutor subjects
                     </h1>
-                    <p className="font-semibold text-3xl ">
+                    <p className="font-semibold text-2xl md:text-3xl">
                         Find Online Tutor in Any Subject
                     </p>
                 </div>
@@ -106,7 +106,7 @@ const SubjectsCard = () => {
                     })}
                 </div>
             </div>
-        </>
+        </section>
     );
 };
 

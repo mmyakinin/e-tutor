@@ -38,14 +38,14 @@ const WhyChooseUsData = [
 
 const WhyChooseUs = () => {
     return (
-        <div className="bg-[#f9fafc]">
-            <div className="container py-16">
+        <section className="why-choose-us bg-[#f9fafc] py-8 md:py-16">
+            <div className="container">
                 {/* Header Section */}
-                <div className="space-y-4 p-6 text-center max-w-[500px] mx-auto mb-5">
+                <div className="space-y-4 text-center max-w-[500px] mx-auto mb-5">
                     <h1 className="uppercase font-semibold text-orange-600">
                         Why Choose us
                     </h1>
-                    <p className="font-semibold text-3xl ">
+                    <p className="font-semibold text-2xl md:text-3xl">
                         Benefits of online tutoring services with us
                     </p>
                 </div>
@@ -72,7 +72,7 @@ const WhyChooseUs = () => {
                     ))}
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 
